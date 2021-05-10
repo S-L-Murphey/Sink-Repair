@@ -1,0 +1,42 @@
+{
+    "plumbers": [
+        {
+            "id": 1,
+            "name": "Maude"
+        },
+        {
+            "id": 2,
+            "name": "Merle"
+        }
+        ],
+    "services": [
+        {
+            "id": 1, 
+            "name": "sink repair"
+        },{
+            "id": 2,
+            "name": "misc. plumbing"
+        }
+     ],
+    "customers": [
+        { 
+            "id": 1,
+            "name": "Danny Tamberelli",
+            "email": "dtamb@gmail.com",
+            "phone": "615-333-444"
+        }
+    ],
+    "completions": [],
+    "requests": [
+        {
+            "id": 1,
+            "description": "Aut sint voluptatem fugit eius quas molestiae modi.",
+            "address": "34445 Bianka Ports",
+            "budget": 400,
+            "neededBy": "2021-08-27",
+            "customerId": 1,
+            "serviceId": 2,
+            "isCompleted": true
+        }
+    ]
+}
