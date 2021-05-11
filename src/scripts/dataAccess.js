@@ -46,3 +46,14 @@ mainContainer.addEventListener(
         render()
     }
 )
+
+
+//Function that can send a DELETE request to the API.
+export const deleteRequest = (id) => {
+    return fetch(`${API}/requests/${id}`, {method: "DELETE"})
+    .then(
+        ()=> {
+            mainContainer.dispatchEvent(new CustomEvent("stateChanged"))
+        }
+    )
+}
